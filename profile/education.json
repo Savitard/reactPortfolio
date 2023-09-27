@@ -6,7 +6,7 @@
             "cardSubtitle":"XYZ University, City",
             "cardDetailedText": "CGPA - 9.5",
             "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+                "src": "reactPortfolio/images/education/lorem-ipsum.png"
             }
         },
         {
