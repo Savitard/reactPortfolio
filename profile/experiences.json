@@ -9,7 +9,7 @@
                 "Worked on adding **def** to **bcd**. Improved speed by 50%."
             ],
             "dateText": "09/2022 – Présent",
-            "logo" : "reactPortfolio/images/experiences/Capgemini_Logo_Short.png"
+            "logo" : "reactPortfolio/images/experiences/Capge_Logo.png"
         },
         {
             "title": "Développeur",
@@ -19,7 +19,7 @@
                 "Worked on abc."
             ],
             "dateText": "03/2022 – 09/2022",
-            "logo" : "reactPortfolio/images/experiences/Capgemini_Logo_Short.png"
+            "logo" : "reactPortfolio/images/experiences/Capge_Logo.png"
         },
         {
             "title": "Etudiant",
@@ -41,7 +41,7 @@
                 "Done bcd work."
             ],
             "dateText": "09/20XX – 01/20YY",
-            "logo" : "Logo_GC.png"
+            "logo" : "cite_gc.png"
         }
     ]
 }
