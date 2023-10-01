@@ -1,33 +1,49 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
+            "title": "Développeur",
+            "subtitle": "Capgemini",
+            "workType": "Alternant",
             "workDescription": [
                 "Integrated **2** new product.",
                 "Worked on adding **def** to **bcd**. Improved speed by 50%."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "09/2022 – Présent",
+            "logo" : "reactPortfolio/images/experiences/Capge_Logo.png"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
+            "title": "Développeur",
+            "subtitle": "Capgemini Mérignac",
+            "workType": "Stagiaire",
             "workDescription": [
                 "Worked on abc."
             ],
-            "dateText": "01/20XX – 05/20XX"
+            "dateText": "03/2022 – 09/2022",
+            "logo" : "reactPortfolio/images/experiences/Capge_Logo.png"
         },
         {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
+            "title": "Etudiant",
+            "subtitle": "INTECH Dax",
+            "workType": "Elève",
             "workDescription": [
                 "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
                 "Done bcd work."
             ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "09/20XX – 01/20YY",
+            "logo" : "reactPortfolio/images/experiences/INTECH_Logo.PNG",
+            "href" : "https://www.esiea.fr/"
+        },
+        {
+            "title": "Etudiant",
+            "subtitle": "Lycée Gaston Crampe, Aire sur l'adour",
+            "workType": "Elève",
+            "workDescription": [
+                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
+                "Done bcd work."
+            ],
+            "dateText": "09/20XX – 01/20YY",
+            "logo" : "reactPortfolio/images/experiences/cite_gc.png",
+            "href" : "https://www.aire-sur-adour.fr/les-services/colleges-lycees/cite-scolaire-gaston-crampe/"
         }
     ]
 }

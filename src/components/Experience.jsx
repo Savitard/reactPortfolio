@@ -28,6 +28,15 @@ const styles = {
   itemStyle: {
     marginBottom: 10,
   },
+  iconStyle: {
+    height: 75,
+    width: 200,
+    margin: 10,
+    marginBottom: 0,
+  },
+  noClicStyle: {
+    pointerEvents: 'none',
+  },
 };
 
 function Experience(props) {
@@ -94,6 +103,11 @@ function Experience(props) {
                           </div>
                         ))}
                       </ul>
+                      {item.href !== null ? (
+                        <a href={item.href}><img src={item.logo} alt="logo" style={styles.iconStyle} /></a>
+                      ) : (
+                        <img src={item.logo} alt="logo" style={styles.iconStyle} />
+                      )}
                     </TimelineItem>
                   </Fade>
                 ))}
