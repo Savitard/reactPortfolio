@@ -30,7 +30,8 @@
                 "Done bcd work."
             ],
             "dateText": "09/20XX – 01/20YY",
-            "logo" : "reactPortfolio/images/experiences/INTECH_Logo.PNG"
+            "logo" : "reactPortfolio/images/experiences/INTECH_Logo.PNG",
+            "href" : "https://www.esiea.fr/"
         },
         {
             "title": "Etudiant",
@@ -41,7 +42,8 @@
                 "Done bcd work."
             ],
             "dateText": "09/20XX – 01/20YY",
-            "logo" : "reactPortfolio/images/experiences/cite_gc.png"
+            "logo" : "reactPortfolio/images/experiences/cite_gc.png",
+            "href" : "https://www.aire-sur-adour.fr/les-services/colleges-lycees/cite-scolaire-gaston-crampe/"
         }
     ]
 }
