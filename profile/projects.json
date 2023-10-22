@@ -1,7 +1,7 @@
 {
     "projects" : [
         {
-            "image" : "reactPortfolio/images/projects/portfolio-poster.png",
+            "image" : "images/projects/portfolio-poster.png",
             "title": "Dev Portfolio",
             "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
             "links": [
@@ -21,7 +21,7 @@
             ]
         },
         {
-            "image" : "reactPortfolio/images/projects/caaring-poster.png",
+            "image" : "images/projects/caaring-poster.png",
             "title": "Caaring -  Cab Share App",
             "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
             "links": [
@@ -45,7 +45,7 @@
             ]
         },
         {
-            "image" : "reactPortfolio/images/projects/quiet-hours-poster.jpg",
+            "image" : "images/projects/quiet-hours-poster.jpg",
             "title": "Quiet Hours App",
             "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
             "links": [

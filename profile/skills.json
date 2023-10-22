@@ -6,23 +6,23 @@
             "items" : [
      
                 {
-                    "icon": "reactPortfolio/images/skills/java.png",
+                    "icon": "images/skills/java.png",
                     "title": "Java"
                 },
                 {
-                    "icon": "reactPortfolio/images/skills/php.png",
+                    "icon": "images/skills/php.png",
                     "title": "PHP"
                 },
                 {
-                    "icon": "reactPortfolio/images/skills/js.png",
+                    "icon": "images/skills/js.png",
                     "title": "JavaScript"
                 },
                 {
-                    "icon": "reactPortfolio/images/skills/python.png",
+                    "icon": "images/skills/python.png",
                     "title": "Python"
                 },
                 {
-                    "icon": "reactPortfolio/images/skills/mysql.png",
+                    "icon": "images/skills/mysql.png",
                     "title": "MySQL"
                 }
         ]},
@@ -30,15 +30,15 @@
             "title": "Frameworks & Technologies",
             "items" : [
                 {
-                    "icon": "reactPortfolio/images/skills/android_new.png",
+                    "icon": "images/skills/android_new.png",
                     "title": "Android"
                 },
                 {
-                    "icon": "reactPortfolio/images/skills/react.png",
+                    "icon": "images/skills/react.png",
                     "title": "React"
                 },
                 {
-                    "icon": "reactPortfolio/images/skills/nodejs.png",
+                    "icon": "images/skills/nodejs.png",
                     "title": "Nodejs"
                 }
             ]
@@ -47,15 +47,15 @@
             "title" : "Tools & Platforms",
             "items": [
                 {
-                    "icon": "reactPortfolio/images/skills/android-studio.png",
+                    "icon": "images/skills/android-studio.png",
                     "title": "Android Studio"
                 },
                 {
-                    "icon": "reactPortfolio/images/skills/git.png",
+                    "icon": "images/skills/git.png",
                     "title": "Git"
                 },
                 {
-                    "icon": "reactPortfolio/images/skills/docker.png",
+                    "icon": "images/skills/docker.png",
                     "title": "Docker"
                 }
             ]
