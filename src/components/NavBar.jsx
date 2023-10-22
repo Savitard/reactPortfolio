@@ -2,6 +2,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import React, { useEffect, useState, useContext } from 'react';
 import { withRouter } from 'react-router';
 import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom/cjs/react-router-dom';
 import styled, { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
 import ThemeToggler from './ThemeToggler';
@@ -61,18 +62,20 @@ const NavBar = () => {
     >
       <Container>
         {data?.logo && (
-          <Navbar.Brand href="/">
-            <img
-              src={data?.logo?.source}
-              className="d-inline-block align-top"
-              alt="main logo"
-              style={
-                data?.logo?.height && data?.logo?.width
-                  ? { height: data?.logo?.height, width: data?.logo?.width }
-                  : styles.logoStyle
-              }
-            />
-          </Navbar.Brand>
+          <Link to="/">
+            <Navbar.Brand>
+              <img
+                src={data?.logo?.source}
+                className="d-inline-block align-top"
+                alt="main logo"
+                style={
+                  data?.logo?.height && data?.logo?.width
+                    ? { height: data?.logo?.height, width: data?.logo?.width }
+                    : styles.logoStyle
+                }
+              />
+            </Navbar.Brand>
+          </Link>
         )}
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

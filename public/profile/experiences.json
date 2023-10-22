@@ -9,7 +9,7 @@
                 "Worked on adding **def** to **bcd**. Improved speed by 50%."
             ],
             "dateText": "09/2022 – Présent",
-            "logo" : "reactPortfolio/images/experiences/Capge_Logo.png"
+            "logo" : "images/experiences/Capge_Logo.png"
         },
         {
             "title": "Développeur",
@@ -19,7 +19,7 @@
                 "Worked on abc."
             ],
             "dateText": "03/2022 – 09/2022",
-            "logo" : "reactPortfolio/images/experiences/Capge_Logo.png"
+            "logo" : "images/experiences/Capge_Logo.png"
         },
         {
             "title": "Etudiant",
@@ -29,8 +29,8 @@
                 "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
                 "Done bcd work."
             ],
-            "dateText": "09/20XX – 01/20YY",
-            "logo" : "reactPortfolio/images/experiences/INTECH_Logo.PNG",
+            "dateText": "09/2019 – 02/2022",
+            "logo" : "images/experiences/INTECH_Logo.PNG",
             "href" : "https://www.esiea.fr/"
         },
         {
@@ -41,8 +41,8 @@
                 "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
                 "Done bcd work."
             ],
-            "dateText": "09/20XX – 01/20YY",
-            "logo" : "reactPortfolio/images/experiences/cite_gc.png",
+            "dateText": "09/2016 – 07/2019",
+            "logo" : "images/experiences/cite_gc.png",
             "href" : "https://www.aire-sur-adour.fr/les-services/colleges-lycees/cite-scolaire-gaston-crampe/"
         }
     ]
