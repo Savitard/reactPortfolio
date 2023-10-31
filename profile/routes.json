@@ -23,7 +23,12 @@
         {
             "component": "Projects",
             "path": "/projects",
-            "headerTitle": "Projects"
+            "headerTitle": "Projets"
+        },
+        {
+            "component": "ProjectDetails",
+            "path": "/projectdetails",
+            "headerTitle": "Project Details"
         }
     ]
 }
