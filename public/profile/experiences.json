@@ -9,7 +9,8 @@
                 "Worked on adding **def** to **bcd**. Improved speed by 50%."
             ],
             "dateText": "09/2022 – Présent",
-            "logo" : "images/experiences/Capge_Logo.png"
+            "logo" : "images/experiences/Capge_Logo.png",
+            "href" : "https://www.capgemini.com/fr-fr/"
         },
         {
             "title": "Développeur",
@@ -19,7 +20,8 @@
                 "Worked on abc."
             ],
             "dateText": "03/2022 – 09/2022",
-            "logo" : "images/experiences/Capge_Logo.png"
+            "logo" : "images/experiences/Capge_Logo.png",
+            "href" : "https://www.capgemini.com/fr-fr/"
         },
         {
             "title": "Etudiant",
