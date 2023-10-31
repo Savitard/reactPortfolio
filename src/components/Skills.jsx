@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import ReactMarkdown from 'react-markdown';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal';
 import { Container } from 'react-bootstrap';
@@ -11,7 +10,7 @@ const styles = {
   iconStyle: {
     height: 75,
     width: 75,
-    margin: 10,
+    margin: 40,
     marginBottom: 0,
   },
   introTextContainer: {
@@ -22,13 +21,6 @@ const styles = {
 function Skills(props) {
   const { header } = props;
   const [data, setData] = useState(null);
-
-  const renderSkillsIntro = (intro) => (
-    <h4 style={styles.introTextContainer}>
-      <ReactMarkdown children={intro} />
-    </h4>
-  );
-
   useEffect(() => {
     fetch(endpoints.skills, {
       method: 'GET',
@@ -45,7 +37,6 @@ function Skills(props) {
         <Fade>
           <div className="section-content-container">
             <Container>
-              {renderSkillsIntro(data.intro)}
               {data.skills?.map((rows) => (
                 <div key={rows.title}>
                   <br />
