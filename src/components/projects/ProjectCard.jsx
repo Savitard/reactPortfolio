@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import {
   Button, Card, Badge, Col,
 } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
 import ReactMarkdown from 'react-markdown';
@@ -59,14 +60,15 @@ const ProjectCard = (props) => {
 
         <Card.Body>
           {project?.links?.map((link) => (
-            <Button
-              key={link.href}
-              style={styles.buttonStyle}
-              variant={'outline-' + theme.bsSecondaryVariant}
-              onClick={() => window.open(link.href, '_blank')}
-            >
-              {link.text}
-            </Button>
+            <Link to={link.href} replace>
+              <Button
+                key={link.href}
+                style={styles.buttonStyle}
+                variant={'outline-' + theme.bsSecondaryVariant}
+              >
+                {link.text}
+              </Button>
+            </Link>
           ))}
         </Card.Body>
         {project.tags && (

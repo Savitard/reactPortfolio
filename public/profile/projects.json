@@ -1,150 +1,95 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "image" : "images/projects/echecs.png",
+            "title": "Mat'moi ça",
+            "bodyText": "Organisation d’un tournoi d’échec en ligne afin de reverser l’argent récolté à l’association Le Secours Populaire",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
+                    "text": "Voir en détail",
+                    "href": "/ProjectDetails/"
                 }
+                
             ],
             "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
+                "Gestion de projet",
+                "Evenementiel",
+                "Montage"
             ]
         },
         {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "image" : "images/projects/devmato.png",
+            "title": "Devmato",
+            "bodyText": "Site web pour le dermofacialisme. Le site vise à faire connaître ce métier et à mettre en relation les clients",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
-                },
-                {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
-            ]
-        },
-        {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
+                    "text": "Voir en détail",
+                    "href": "/ProjectDetails/"
                 }
             ],
             "tags" : [
                 "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
+                "SQL",
+                "Git",
+                "Javascript",
+                "Architecture Web",
+                "Gestion projet",
+                "Agilité"
             ]
         },
         {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
+            "image" : "images/projects/hypotech.PNG",
+            "title": "Hypotech",
+            "bodyText": "Application Android simplifiant le travail administratif des agents immobiliers",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
+                    "text": "Voir en détail",
+                    "href": "/ProjectDetails/"
                 }
             ],
             "tags" : [
                 "Java",
-                "Android",
-                "Firebase",
-                "RSA"
+                "SQL",
+                "Git",
+                "Agilité"
             ]
         },
         {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
+            "image" : "images/projects/AgriDax.PNG",
+            "title": "Agri'Dax",
+            "bodyText": "Former les membres de l'assocation AMAP à l'utilisation d'un logiciel facilitant leur travail",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
+                    "text": "Voir en détail",
+                    "href": "/ProjectDetails/"
                 }
             ],
             "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
+                "Gestion de projet",
+                "Evenementiel",
+                "Communication",
+                "Montage"
             ]
         },
         {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
+            "image" : "images/projects/capge.png",
+            "title": "alternance / Stage",
+            "bodyText": "Maintenance applicative en tant que développeur chez Capgemini",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
+                    "text": "Voir en détail",
+                    "href": "/ProjectDetails/"
                 }
             ],
             "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+                "Java",
+                "Javascript",
+                "Architecture Web",
+                "Cobol",
+                "XML",
+                "Agilité"
             ]
         }
+       
     ]
 }
