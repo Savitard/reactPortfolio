@@ -31,7 +31,7 @@
             "headerTitle": "Project Details"
         },
         {
-            "component": "SkillsDetails",
+            "component": "SkillDetails",
             "path": "/skilldetails/:title",
             "headerTitle": "Skill Details"
         }
