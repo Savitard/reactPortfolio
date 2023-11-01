@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal';
+import { useHistory } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
@@ -29,7 +30,11 @@ function Skills(props) {
       .then((res) => setData(res))
       .catch((err) => err);
   }, []);
+  const history = useHistory();
 
+  const redirectToSkillDetails = (skillTitle) => {
+    history.push(`/skilldetails/${skillTitle}`);
+  };
   return (
     <>
       <Header title={header} />
@@ -42,14 +47,19 @@ function Skills(props) {
                   <br />
                   <h3>{rows.title}</h3>
                   {rows.items.map((item) => (
-                    <div key={item.title} style={{ display: 'inline-block' }}>
-                      <img
-                        style={styles.iconStyle}
-                        src={item.icon}
-                        alt={item.title}
-                      />
-                      <p>{item.title}</p>
-                    </div>
+                    <button
+                      type="button"
+                      onClick={() => redirectToSkillDetails(item.title)}
+                    >
+                      <div key={item.title} style={{ display: 'inline-block' }}>
+                        <img
+                          style={styles.iconStyle}
+                          src={item.icon}
+                          alt={item.title}
+                        />
+                        <p>{item.title}</p>
+                      </div>
+                    </button>
                   ))}
                 </div>
               ))}
