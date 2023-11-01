@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import ReactMarkdown from 'react-markdown';
-import { Container, Col, Row } from 'react-bootstrap';
-import PropTypes from 'prop-types';
-import Fade from 'react-reveal';
-import Header from './Header';
+import { useParams } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 
@@ -24,52 +21,30 @@ const styles = {
   },
 };
 
-function ProjectDetails(props) {
-  const { header } = props;
+function ProjectDetails() {
   const [data, setData] = useState(null);
-
-  const parseIntro = (text) => (
-    <ReactMarkdown
-      children={text}
-    />
-  );
-
+  const { title } = useParams();
   useEffect(() => {
-    fetch(endpoints.about, {
+    fetch(endpoints.projects, {
       method: 'GET',
     })
       .then((res) => res.json())
       .then((res) => setData(res))
       .catch((err) => err);
   }, []);
-
+  const selectedProject = data?.projects.find((project) => project.title === title);
   return (
     <>
-      <Header title={header} />
-      <div className="section-content-container">
-        <Container>
-          {data
-            ? (
-              <Fade>
-                <Row>
-                  <Col style={styles.introTextContainer}>
-                    {parseIntro(data.about)}
-                  </Col>
-                  <Col style={styles.introImageContainer}>
-                    <img src={data?.imageSource} alt="profile" />
-                  </Col>
-                </Row>
-              </Fade>
-            )
-            : <FallbackSpinner />}
-        </Container>
-      </div>
+      {data
+        ? (
+          <div className="section-content-container">
+            <Container style={styles.containerStyle}>
+              <p>{selectedProject.bodyText}</p>
+            </Container>
+          </div>
+        ) : <FallbackSpinner />}
     </>
   );
 }
-
-ProjectDetails.propTypes = {
-  header: PropTypes.string.isRequired,
-};
 
 export default ProjectDetails;

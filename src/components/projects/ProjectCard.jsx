@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import {
   Button, Card, Badge, Col,
 } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
 import ReactMarkdown from 'react-markdown';
@@ -40,6 +40,13 @@ const ProjectCard = (props) => {
 
   const { project } = props;
 
+  const history = useHistory();
+
+  const handleButtonClick = () => {
+    // Redirigez vers le composant avec un paramètre
+    history.push(`/ProjectDetails/${project.title}`);
+  };
+
   return (
     <Col>
       <Card
@@ -60,15 +67,13 @@ const ProjectCard = (props) => {
 
         <Card.Body>
           {project?.links?.map((link) => (
-            <Link to={link.href} replace>
-              <Button
-                key={link.href}
-                style={styles.buttonStyle}
-                variant={'outline-' + theme.bsSecondaryVariant}
-              >
-                {link.text}
-              </Button>
-            </Link>
+            <Button
+              style={styles.buttonStyle}
+              variant={'outline-' + theme.bsSecondaryVariant}
+              onClick={handleButtonClick}
+            >
+              {link.text}
+            </Button>
           ))}
         </Card.Body>
         {project.tags && (

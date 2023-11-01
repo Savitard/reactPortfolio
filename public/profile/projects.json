@@ -7,7 +7,7 @@
             "links": [
                 {
                     "text": "Voir en détail",
-                    "href": "/ProjectDetails/"
+                    "href": "/ProjectDetails?title=Mat'moi ça"
                 }
                 
             ],
@@ -24,7 +24,7 @@
             "links": [
                 {
                     "text": "Voir en détail",
-                    "href": "/ProjectDetails/"
+                    "href": "/ProjectDetails"
                 }
             ],
             "tags" : [
@@ -44,7 +44,7 @@
             "links": [
                 {
                     "text": "Voir en détail",
-                    "href": "/ProjectDetails/"
+                    "href": "/ProjectDetails?title=Hypotech"
                 }
             ],
             "tags" : [
@@ -61,7 +61,7 @@
             "links": [
                 {
                     "text": "Voir en détail",
-                    "href": "/ProjectDetails/"
+                    "href": "/ProjectDetails?title=Agri'Dax"
                 }
             ],
             "tags" : [
@@ -73,12 +73,12 @@
         },
         {
             "image" : "images/projects/capge.png",
-            "title": "alternance / Stage",
+            "title": "alternance - Stage",
             "bodyText": "Maintenance applicative en tant que développeur chez Capgemini",
             "links": [
                 {
                     "text": "Voir en détail",
-                    "href": "/ProjectDetails/"
+                    "href": "/ProjectDetails"
                 }
             ],
             "tags" : [

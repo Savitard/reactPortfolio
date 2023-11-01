@@ -27,8 +27,13 @@
         },
         {
             "component": "ProjectDetails",
-            "path": "/projectdetails",
+            "path": "/projectdetails/:title",
             "headerTitle": "Project Details"
+        },
+        {
+            "component": "SkillsDetails",
+            "path": "/skilldetails/:title",
+            "headerTitle": "Skill Details"
         }
     ]
 }
