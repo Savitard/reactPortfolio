@@ -6,23 +6,46 @@
      
                 {
                     "icon": "images/skills/java.png",
-                    "title": "Java"
+                    "title": "Java",
+                    "projects": [
+                        "Devmato",
+                        "Hypotech",
+                        "alternance - Stage"
+                      ]
                 },
                 {
                     "icon": "images/skills/mysql.png",
-                    "title": "SQL"
+                    "title": "SQL",
+                    "projects": [
+                        "Devmato",
+                        "Hypotech"
+                      ]
+                    
                 },
                 {
                     "icon": "images/skills/js.png",
-                    "title": "Javascript"
+                    "title": "Javascript",
+                    "projects": [
+                        "Devmato",
+                        "alternance - Stage"
+                      ]
                 },
                 {
                     "icon": "images/skills/git.png",
-                    "title": "Git"
+                    "title": "Git",
+                    "projects": [
+                        "Devmato",
+                        "Hypotech",
+                        "alternance - Stage"
+                      ]
                 },
                 {
                     "icon": "images/skills/archiweb.png",
-                    "title": "Architecture Web"
+                    "title": "Architecture Web",
+                    "projects": [
+                        "Devmato",
+                        "alternance - Stage"
+                      ]
                 }
         ]},
         {
@@ -30,23 +53,47 @@
             "items" : [
                 {
                     "icon": "images/skills/montage.png",
-                    "title": "Montage"
+                    "title": "Montage",
+                    "projects": [
+                        "Mat'moi ça",
+                        "Agri'Dax"
+                      ]
                 },
                 {
                     "icon": "images/skills/gestionprojet.png",
-                    "title": "Gestion de projet"
+                    "title": "Gestion de projet",
+                    "projects": [
+                        "Devmato",
+                        "Hypotech",
+                        "alternance - Stage",
+                        "Agri'Dax"
+                      ]
                 },
                 {
                     "icon": "images/skills/agile.png",
-                    "title": "Agilité"
+                    "title": "Agilité",
+                    "projects": [
+                        "Devmato",
+                        "Hypotech",
+                        "alternance - Stage"
+                      ]
                 },
                 {
                     "icon": "images/skills/communication.png",
-                    "title": "Communication"
+                    "title": "Communication",
+                    "projects": [
+                        "Mat'moi ça",
+                        "Agri'Dax",
+                        "Hypotech"
+                      ]
                 },
                 {
                     "icon": "images/skills/evenementiel.png",
-                    "title": "Evenementiel"
+                    "title": "Evenementiel",
+                    "projects": [
+                        "Mat'moi ça",
+                        "Agri'Dax"
+                      ]
                 }
             ]
         }

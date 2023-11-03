@@ -19,6 +19,9 @@ const styles = {
     alignItems: 'center',
     display: 'flex',
   },
+  linkStyle: {
+    margin: 30,
+  },
 };
 
 function SkillDetails() {
@@ -44,6 +47,10 @@ function SkillDetails() {
           <div className="section-content-container">
             <Container style={styles.containerStyle}>
               <p>{selectedSkill.icon}</p>
+              <h2>Projets associés</h2>
+              {selectedSkill.projects.map((project) => (
+                <a href={`./#/projectdetails/${project}`} style={styles.linkStyle}>{project}</a>
+              ))}
             </Container>
           </div>
         ) : <FallbackSpinner />}
