@@ -37,7 +37,7 @@ const styles = {
     height: 75,
     width: 200,
     margin: 10,
-    marginBottom: 0,
+    marginBottom: 50,
   },
   noClicStyle: {
     pointerEvents: 'none',
