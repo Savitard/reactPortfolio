@@ -19,6 +19,9 @@ const styles = {
     alignItems: 'center',
     display: 'flex',
   },
+  linkStyle: {
+    margin: 30,
+  },
 };
 
 function ProjectDetails() {
@@ -40,6 +43,10 @@ function ProjectDetails() {
           <div className="section-content-container">
             <Container style={styles.containerStyle}>
               <p>{selectedProject.bodyText}</p>
+              <h2>Compétences associées</h2>
+              {selectedProject.tags.map((project) => (
+                <a href={`./#/skilldetails/${project.skill}`} style={styles.linkStyle}>{project}</a>
+              ))}
             </Container>
           </div>
         ) : <FallbackSpinner />}
