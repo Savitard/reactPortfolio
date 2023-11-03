@@ -1,11 +1,11 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 import { Container } from 'react-bootstrap';
-import Typography from '@mui/material/Typography';
-import Dialog from '@mui/material/Dialog';
-import DialogTitle from '@mui/material/DialogTitle';
-import DialogContent from '@mui/material/DialogContent';
-import DialogActions from '@mui/material/DialogActions';
+// import Typography from '@mui/material/Typography';
+// import Dialog from '@mui/material/Dialog';
+// import DialogTitle from '@mui/material/DialogTitle';
+// import DialogContent from '@mui/material/DialogContent';
+// import DialogActions from '@mui/material/DialogActions';
 import ReactMarkdown from 'react-markdown';
 import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
@@ -31,6 +31,7 @@ const styles = {
   },
   itemStyle: {
     marginBottom: 10,
+    width: 600,
   },
   iconStyle: {
     height: 75,
@@ -47,15 +48,15 @@ function Experience(props) {
   const theme = useContext(ThemeContext);
   const { header } = props;
   const [data, setData] = useState(null);
-  const [open, setOpen] = useState(false);
+  // const [open, setOpen] = useState(false);
 
-  const handleOpen = () => {
-    setOpen(true);
-  };
+  // const handleOpen = () => {
+  //   setOpen(true);
+  // };
 
-  const handleClose = () => {
-    setOpen(false);
-  };
+  // const handleClose = () => {
+  //   setOpen(false);
+  // };
 
   useEffect(() => {
     fetch(endpoints.experiences, {
@@ -87,21 +88,12 @@ function Experience(props) {
                   >
                     <h2
                       className="item-title"
-                      onMouseEnter={handleOpen}
-                      onMouseLeave={handleClose}
+                      // onMouseEnter={handleOpen}
+                      // onMouseLeave={handleClose}
                     >
                       {item.title}
 
                     </h2>
-                    <Dialog open={open} onClose={handleClose} aria-labelledby="custom-dialog-title">
-                      <DialogTitle id="custom-dialog-title">Titre de la fenêtre contextuelle</DialogTitle>
-                      <DialogContent>
-                        <Typography>Votre texte </Typography>
-                      </DialogContent>
-                      <DialogActions>
-                        <button type="button" onClick={handleClose}>Fermer</button>
-                      </DialogActions>
-                    </Dialog>
                     <div style={styles.subtitleContainerStyle}>
                       <h4 style={{ ...styles.subtitleStyle, color: theme.accentColor }}>
                         {item.subtitle}
