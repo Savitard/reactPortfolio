@@ -1,7 +1,7 @@
 {
     "skills": [{
      
-            "title": "Compétences techniques",
+            "title": "Techniques",
             "items" : [
      
                 {
@@ -26,7 +26,7 @@
                 }
         ]},
         {
-            "title": "Compétences humaines",
+            "title": "humaines",
             "items" : [
                 {
                     "icon": "images/skills/montage.png",

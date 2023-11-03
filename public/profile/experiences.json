@@ -28,9 +28,9 @@
             "subtitle": "INTECH Dax",
             "workType": "Elève",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Bachelor d’Expert en Ingénierie du Logiciel"
             ],
+            "details" : "",
             "dateText": "09/2019 – 02/2022",
             "logo" : "images/experiences/INTECH_Logo.PNG",
             "href" : "https://www.esiea.fr/"
@@ -40,9 +40,9 @@
             "subtitle": "Lycée Gaston Crampe, Aire sur l'adour",
             "workType": "Elève",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Baccalauréat Scientifique spécialité Sciences de l'Ingénieur"
             ],
+            "details" : "Le lycée Gaston Crampe à Aire-sur-l'Adour est un établissement d'enseignement secondaire situé dans le département des Landes, en Nouvelle-Aquitaine, dans le sud-ouest de la France. Il porte le nom de Gaston Crampe, un homme politique français originaire de la région. Ce lycée offre un large éventail de formations pour les élèves, notamment des filières générales, technologiques et professionnelles.\n\nOn y retrouve notamment dans le cadre de la filière scientifique (bac S) la spécialité Sciences de l'ingénieur. Cette spécialité se concentre sur l'étude des principes fondamentaux de l'ingénierie, de la conception technique et de la résolution de problèmes pratiques. Cette spécialité donne l'opportunité de travailler sur des projets concrets liés à la mécanique, à l'électronique, à l'automatique, et à d'autres domaines de l'ingénierie.",
             "dateText": "09/2016 – 07/2019",
             "logo" : "images/experiences/cite_gc.png",
             "href" : "https://www.aire-sur-adour.fr/les-services/colleges-lycees/cite-scolaire-gaston-crampe/"
