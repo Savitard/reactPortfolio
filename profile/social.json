@@ -2,15 +2,11 @@
     "social": [
         {
             "network" : "linkedin",
-            "href": "https://linkedin.com/"
-        },
-        {
-            "network" : "github",
-            "href": "https://github.com/mayankagarwal09"
+            "href": "https://www.linkedin.com/in/corentin-lart/"
         },
         {
             "network" : "email",
-            "href": "mailto:test@test.com"
+            "href": "mailto:corentin.lart@gmail.com"
         }
     ]
 }
