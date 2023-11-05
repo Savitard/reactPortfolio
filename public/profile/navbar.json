@@ -15,7 +15,8 @@
         },
         {
             "title": "Compétences",
-            "href": "/skills"
+            "href": "/skills",
+            "type": "dropdown"
         },
         {
             "title": "Parcours",
@@ -23,7 +24,8 @@
         },
         {
             "title": "Projets",
-            "href": "/projects"
+            "href": "/projects",
+            "type": "dropdown"
         },
         {
             "title": "CV",

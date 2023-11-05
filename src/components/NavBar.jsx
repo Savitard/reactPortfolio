@@ -1,4 +1,9 @@
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import {
+  NavDropdown,
+  Navbar,
+  Nav,
+  Container,
+} from 'react-bootstrap';
 import React, { useEffect, useState, useContext } from 'react';
 import { withRouter } from 'react-router';
 import { NavLink } from 'react-router-dom';
@@ -69,31 +74,55 @@ const NavBar = () => {
           <Nav className="me-auto" />
           <Nav>
             {data
-              && data.sections?.map((section, index) => (section?.type === 'link' ? (
-                <ExternalNavLink
-                  key={section.title}
-                  href={section.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() => setExpanded(false)}
-                  className="navbar__link"
-                  theme={theme}
-                >
-                  {section.title}
-                </ExternalNavLink>
-              ) : (
-                <InternalNavLink
-                  key={section.title}
-                  onClick={() => setExpanded(false)}
-                  exact={index === 0}
-                  activeClassName="navbar__link--active"
-                  className="navbar__link"
-                  to={section.href}
-                  theme={theme}
-                >
-                  {section.title}
-                </InternalNavLink>
-              )))}
+              && data.sections?.map((section, index) => {
+                if (section?.type === 'link') {
+                  return (
+                    <ExternalNavLink
+                      key={section.title}
+                      href={section.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={() => setExpanded(false)}
+                      className="navbar__link"
+                      theme={theme}
+                    >
+                      {section.title}
+                    </ExternalNavLink>
+                  );
+                }
+                if (section?.type === 'dropdown') {
+                  return (
+                    <InternalNavLink
+                      key={section.title}
+                      onClick={() => setExpanded(false)}
+                      exact={index === 0}
+                      activeClassName="navbar__link--active"
+                      className="navbar__link"
+                      to={section.href}
+                      theme={theme}
+                    >
+                      <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                        <NavDropdown.Item href="#action/3.1">Action 1</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.2">Action 2</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.3">Action 3</NavDropdown.Item>
+                      </NavDropdown>
+                    </InternalNavLink>
+                  );
+                }
+                return (
+                  <InternalNavLink
+                    key={section.title}
+                    onClick={() => setExpanded(false)}
+                    exact={index === 0}
+                    activeClassName="navbar__link--active"
+                    className="navbar__link"
+                    to={section.href}
+                    theme={theme}
+                  >
+                    {section.title}
+                  </InternalNavLink>
+                );
+              })}
           </Nav>
           <ThemeToggler
             onClick={() => setExpanded(false)}
