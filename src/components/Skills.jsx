@@ -50,6 +50,7 @@ function Skills(props) {
                     <button
                       type="button"
                       onClick={() => redirectToSkillDetails(item.title)}
+                      style={{ margin: '10px' }}
                     >
                       <div key={item.title} style={{ display: 'inline-block' }}>
                         <img

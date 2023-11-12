@@ -6,7 +6,7 @@ import {
 } from 'react-bootstrap';
 import React, { useEffect, useState, useContext } from 'react';
 import { withRouter } from 'react-router';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useHistory } from 'react-router-dom';
 import { Link } from 'react-router-dom/cjs/react-router-dom';
 import styled, { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
@@ -48,7 +48,10 @@ const NavBar = () => {
       .then((res) => setData(res))
       .catch((err) => err);
   }, []);
-
+  const history = useHistory();
+  const redirectToSkillDetails = (skillTitle) => {
+    history.push(`${skillTitle}`);
+  };
   return (
     <Navbar
       fixed="top"
@@ -72,7 +75,7 @@ const NavBar = () => {
         />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto" />
-          <Nav>
+          <Nav style={{ height: '100%', display: 'flex', alignItems: 'center' }}>
             {data
               && data.sections?.map((section, index) => {
                 if (section?.type === 'link') {
@@ -100,11 +103,14 @@ const NavBar = () => {
                       className="navbar__link"
                       to={section.href}
                       theme={theme}
+                      style={{ display: 'inline-block' }}
                     >
-                      <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Action 1</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Action 2</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Action 3</NavDropdown.Item>
+                      <NavDropdown title={section.title} id="basic-nav-dropdown">
+                        {Object.entries(section.actions[0]).map(([actionTitle, actionUrl]) => (
+                          <NavDropdown.Item onClick={() => redirectToSkillDetails(actionUrl)}>
+                            {actionTitle}
+                          </NavDropdown.Item>
+                        ))}
                       </NavDropdown>
                     </InternalNavLink>
                   );
