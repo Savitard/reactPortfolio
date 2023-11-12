@@ -15,7 +15,21 @@
         },
         {
             "title": "Compétences",
-            "href": "/skills"
+            "href": "/skills",
+            "type": "dropdown",
+            "actions": [{
+                "Toutes les compétences" : "/skills",
+                "java" : "/skilldetails/Java",
+                "SQL" : "/skilldetails/SQL",
+                "Javascript" : "/skilldetails/Javascript",
+                "Git" : "/skilldetails/Git",
+                "Architecture Web" : "/skilldetails/Architecture%20Web",
+                "Montage" : "/skilldetails/Montage",
+                "Gestion de projet" : "/skilldetails/Gestion%20de%20projet",
+                "Agilité" : "/skilldetails/Agilité",
+                "Communication" : "/skilldetails/Communication",
+                "Evenementiel" : "/skilldetails/Evenementiel"
+                }]
         },
         {
             "title": "Parcours",
@@ -23,7 +37,16 @@
         },
         {
             "title": "Projets",
-            "href": "/projects"
+            "href": "/projects",
+            "type": "dropdown",
+            "actions": [{
+                "Tous les projets" : "/projects",
+                "Mat'moi ça" : "/ProjectDetails/Mat'moi%20ça",
+                "Devmato" : "/ProjectDetails/Devmato",
+                "Hypotech" : "/ProjectDetails/Hypotech",
+                "Agri'Dax" : "/ProjectDetails/Agri'Dax",
+                "alternance - Stage" : "/ProjectDetails/alternance%20-%20Stage"
+                }]
         },
         {
             "title": "CV",
