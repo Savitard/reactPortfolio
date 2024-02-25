@@ -17,6 +17,12 @@ const styles = {
   introTextContainer: {
     whiteSpace: 'pre-wrap',
   },
+  cardDescription: {
+    textAlign: 'center',
+    border: '5px solid #ccc',
+    borderRadius: '5px',
+    backgroundColor: '#f9f9f9',
+  },
 };
 
 function Skills(props) {
@@ -40,8 +46,9 @@ function Skills(props) {
       <Header title={header} />
       {data ? (
         <Fade>
-          <div className="section-content-container">
+          <div className="section-content-container" style={{ flexGrow: 0 }}>
             <Container>
+              <img src="images/skills/niveaux.jpg" alt="niveau" />
               {data.skills?.map((rows) => (
                 <div key={rows.title}>
                   <br />
@@ -50,7 +57,7 @@ function Skills(props) {
                     <button
                       type="button"
                       onClick={() => redirectToSkillDetails(item.title)}
-                      style={{ margin: '10px' }}
+                      style={{ margin: '10px', backgroundColor: '#9e9e9e' }}
                     >
                       <div key={item.title} style={{ display: 'inline-block' }}>
                         <img
@@ -59,6 +66,9 @@ function Skills(props) {
                           alt={item.title}
                         />
                         <p>{item.title}</p>
+                        <div style={styles.cardDescription}>
+                          <p>{item.niveau}</p>
+                        </div>
                       </div>
                     </button>
                   ))}
