@@ -19,9 +19,9 @@ const styles = {
   },
   cardDescription: {
     textAlign: 'center',
-    border: '5px solid #ccc',
-    borderRadius: '5px',
-    backgroundColor: '#f9f9f9',
+    borderTop: '5px solid #ccc',
+    paddingTop: '15px',
+
   },
 };
 
@@ -67,7 +67,7 @@ function Skills(props) {
                         />
                         <p>{item.title}</p>
                         <div style={styles.cardDescription}>
-                          <p>{item.niveau}</p>
+                          <p style={{ fontSize: '130%', fontWeight: 'bold' }}>{item.niveau}</p>
                         </div>
                       </div>
                     </button>

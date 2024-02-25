@@ -7,7 +7,7 @@
                 {
                     "icon": "images/skills/java.png",
                     "title": "Java",
-                    "niveau": "expert",
+                    "niveau": "EXPERT",
                     "projects": [
                         "Devmato",
                         "Hypotech",
@@ -23,7 +23,7 @@
                 {
                     "icon": "images/skills/mysql.png",
                     "title": "SQL",
-                    "niveau": "expert",
+                    "niveau": "EXPERT",
                     "projects": [
                         "Devmato",
                         "Hypotech"
@@ -39,7 +39,7 @@
                 {
                     "icon": "images/skills/js.png",
                     "title": "Javascript",
-                    "niveau": "expert",
+                    "niveau": "EXPERT",
                     "projects": [
                         "Devmato",
                         "alternance - Stage"
@@ -54,7 +54,7 @@
                 {
                     "icon": "images/skills/git.png",
                     "title": "Git",
-                    "niveau": "expert",
+                    "niveau": "EXPERT",
                     "projects": [
                         "Devmato",
                         "Hypotech",
@@ -70,7 +70,7 @@
                 {
                     "icon": "images/skills/archiweb.png",
                     "title": "Architecture Web",
-                    "niveau": "expert",
+                    "niveau": "EXPERT",
                     "projects": [
                         "Devmato",
                         "alternance - Stage"
@@ -89,7 +89,7 @@
                 {
                     "icon": "images/skills/montage.png",
                     "title": "Montage",
-                    "niveau": "expert",
+                    "niveau": "EXPERT",
                     "projects": [
                         "Mat'moi ça",
                         "Agri'Dax"
@@ -104,7 +104,7 @@
                 {
                     "icon": "images/skills/gestionprojet.png",
                     "title": "Gestion de projet",
-                    "niveau": "expert",
+                    "niveau": "EXPERT",
                     "projects": [
                         "Devmato",
                         "Hypotech",
@@ -121,7 +121,7 @@
                 {
                     "icon": "images/skills/agile.png",
                     "title": "Agilité",
-                    "niveau": "expert",
+                    "niveau": "EXPERT",
                     "projects": [
                         "Devmato",
                         "Hypotech",
@@ -136,7 +136,7 @@
                 {
                     "icon": "images/skills/communication.png",
                     "title": "Communication",
-                    "niveau": "expert",
+                    "niveau": "EXPERT",
                     "projects": [
                         "Mat'moi ça",
                         "Agri'Dax",
@@ -152,7 +152,7 @@
                 {
                     "icon": "images/skills/evenementiel.png",
                     "title": "Evenementiel",
-                    "niveau": "expert",
+                    "niveau": "EXPERT",
                     "projects": [
                         "Mat'moi ça",
                         "Agri'Dax"
