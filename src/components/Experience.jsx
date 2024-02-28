@@ -9,6 +9,7 @@ import { Container } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown';
 import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
+import { Tooltip } from 'react-tooltip';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
@@ -88,8 +89,8 @@ function Experience(props) {
                   >
                     <h2
                       className="item-title"
-                      // onMouseEnter={handleOpen}
-                      // onMouseLeave={handleClose}
+                    // onMouseEnter={handleOpen}
+                    // onMouseLeave={handleClose}
                     >
                       {item.title}
 
@@ -120,6 +121,16 @@ function Experience(props) {
                           <br />
                         </div>
                       ))}
+                    </ul>
+                    <ul style={styles.ulStyle}>
+                      <button type="button" id="popup">Plus de détails</button>
+                      <Tooltip anchorSelect="#popup" place="right" animateFill={false} delayShow={200}>
+                        <p>coucou le test je suis super heureux que cette popup </p>
+                        <p>coucou le test je suis super heureux que cette popup </p>
+                        <p>coucou le test je suis super heureux que cette popup </p>
+                        <p>coucou le test je suis super heureux que cette popup </p>
+                        <p>coucou le test je suis super heureux que cette popup </p>
+                      </Tooltip>
                     </ul>
                     {item.href !== null ? (
                       <a href={item.href}><img src={item.logo} alt="logo" style={styles.iconStyle} /></a>
