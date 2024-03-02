@@ -5,9 +5,9 @@
             "subtitle": "Capgemini",
             "workType": "Alternant",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+          
             ],
+            "details" : "Lors de mon alternance chez Capgemini, j’ai eu comme rôle celui de développeur. Ma mission était d’effectuer la maintenance applicative de l’application utilisée par les conseillers de France Travail pour gérer les demandeurs d’emploi.<br /> <br />Capgemini, en tant que leader mondial dans le domaine des services numériques et du conseil, a pour vision d'accompagner ses clients dans leur transformation digitale en proposant des solutions innovantes et adaptées à leurs besoins. Dans le cadre de ma mission, j'ai pu contribuer à cette vision en assurant le bon fonctionnement et l'amélioration continue de l'application utilisée par France Travail. En travaillant sur la maintenance applicative, j'ai aidé à garantir la stabilité et la fiabilité de l'application, tout en identifiant et en mettant en œuvre des améliorations pour répondre aux besoins évolutifs des utilisateurs.",
             "dateText": "09/2022 – Présent",
             "logo" : "images/experiences/Capge_Logo.png",
             "href" : "https://www.capgemini.com/fr-fr/"
@@ -17,8 +17,9 @@
             "subtitle": "Capgemini Mérignac",
             "workType": "Stagiaire",
             "workDescription": [
-                "Worked on abc."
+                
             ],
+            "details" : "Lors de mon stage chez Capgemini, j’ai eu la même mission que lors de mon alternance. La différence principale est que c’était principalement une période de montée en compétence et de découverte de l’entreprise et du projet pour moi. J’ai au fur et à mesure appris à connaître Capgemini et à prendre de plus en plus de responsabilité au sein du projet, qui ont continué à se développer lors de mon alternance.",
             "dateText": "03/2022 – 09/2022",
             "logo" : "images/experiences/Capge_Logo.png",
             "href" : "https://www.capgemini.com/fr-fr/"
@@ -30,7 +31,7 @@
             "workDescription": [
                 "Bachelor d’Expert en Ingénierie du Logiciel"
             ],
-            "details" : "",
+            "details" : "INTECH est un établissement d'enseignement supérieur spécialisé dans les domaines de l'informatique, des technologies numériques et de l'ingénierie. Fondée sur des valeurs d'innovation et d'excellence, INTECH offre une formation de qualité alliant théorie et pratique.<br /><br />Avec une gamme de programmes allant du bachelor au master, INTECH prépare ses étudiants à relever les défis du monde professionnel grâce à des cours dispensés par des experts, des projets concrets et des stages en entreprise. L'école dispose d'une infrastructure moderne et favorise l'entrepreneuriat et l'innovation.<br /><br />Grâce à ses liens étroits avec l'industrie, INTECH offre d'excellentes opportunités professionnelles à ses diplômés, les accompagnant dans leur recherche de stages et d'emplois.",
             "dateText": "09/2019 – 02/2022",
             "logo" : "images/experiences/INTECH_Logo.PNG",
             "href" : "https://www.esiea.fr/"
@@ -42,7 +43,7 @@
             "workDescription": [
                 "Baccalauréat Scientifique spécialité Sciences de l'Ingénieur"
             ],
-            "details" : "Le lycée Gaston Crampe à Aire-sur-l'Adour est un établissement d'enseignement secondaire situé dans le département des Landes, en Nouvelle-Aquitaine, dans le sud-ouest de la France. Il porte le nom de Gaston Crampe, un homme politique français originaire de la région. Ce lycée offre un large éventail de formations pour les élèves, notamment des filières générales, technologiques et professionnelles.\n\nOn y retrouve notamment dans le cadre de la filière scientifique (bac S) la spécialité Sciences de l'ingénieur. Cette spécialité se concentre sur l'étude des principes fondamentaux de l'ingénierie, de la conception technique et de la résolution de problèmes pratiques. Cette spécialité donne l'opportunité de travailler sur des projets concrets liés à la mécanique, à l'électronique, à l'automatique, et à d'autres domaines de l'ingénierie.",
+            "details" : "Le lycée Gaston Crampe, situé à Aire-sur-l'Adour, est une institution d'enseignement secondaire réputée dans la région. Le lycée offre un environnement propice à l'apprentissage et à l'épanouissement des élèves.<br /><br />L’établissement propose un large éventail de filières et de programmes éducatifs pour répondre aux besoins et aux intérêts divers des étudiants. Que ce soit dans les filières générales, technologiques ou professionnelles, les élèves bénéficient d'une éducation de qualité dispensée par des enseignants compétents et dévoués.<br /><br />Au-delà des cours académiques, le lycée Gaston Crampe encourage également la participation des élèves à des activités extrascolaires telles que des clubs, des événements culturels et des compétitions sportives. Grâce à ses installations modernes et ses ressources pédagogiques de pointe, le lycée offre un cadre optimal pour l'apprentissage, la recherche et le développement personnel des élèves. ",
             "dateText": "09/2016 – 07/2019",
             "logo" : "images/experiences/cite_gc.png",
             "href" : "https://www.aire-sur-adour.fr/les-services/colleges-lycees/cite-scolaire-gaston-crampe/"
