@@ -43,6 +43,9 @@ const styles = {
   noClicStyle: {
     pointerEvents: 'none',
   },
+  tooltip: {
+    maxWidth: 400,
+  },
 };
 
 function Experience(props) {
@@ -79,7 +82,7 @@ function Experience(props) {
               <Timeline
                 lineColor={theme.timelineLineColor}
               >
-                {data.map((item) => (
+                {data.map((item, index) => (
                   <TimelineItem
                     key={item.title + item.dateText}
                     dateText={item.dateText}
@@ -123,14 +126,8 @@ function Experience(props) {
                       ))}
                     </ul>
                     <ul style={styles.ulStyle}>
-                      <button type="button" id="popup">Plus de détails</button>
-                      <Tooltip anchorSelect="#popup" place="right" animateFill={false} delayShow={200}>
-                        <p>coucou le test je suis super heureux que cette popup </p>
-                        <p>coucou le test je suis super heureux que cette popup </p>
-                        <p>coucou le test je suis super heureux que cette popup </p>
-                        <p>coucou le test je suis super heureux que cette popup </p>
-                        <p>coucou le test je suis super heureux que cette popup </p>
-                      </Tooltip>
+                      <button type="button" id={`popup${index}`}>Plus de détails</button>
+                      <Tooltip anchorSelect={`#popup${index}`} place="right" animateFill={false} delayShow={200} style={styles.tooltip} html={item.details} />
                     </ul>
                     {item.href !== null ? (
                       <a href={item.href}><img src={item.logo} alt="logo" style={styles.iconStyle} /></a>
