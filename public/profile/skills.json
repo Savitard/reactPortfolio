@@ -23,7 +23,7 @@
                 {
                     "icon": "images/skills/mySQL.png",
                     "title": "SQL",
-                    "niveau": "EXPERT",
+                    "niveau": "PRO",
                     "projects": [
                         "Devmato",
                         "Hypotech"
@@ -39,7 +39,7 @@
                 {
                     "icon": "images/skills/js.png",
                     "title": "Javascript",
-                    "niveau": "EXPERT",
+                    "niveau": "PRO",
                     "projects": [
                         "Devmato",
                         "alternance - Stage"
@@ -54,7 +54,7 @@
                 {
                     "icon": "images/skills/git.png",
                     "title": "Git",
-                    "niveau": "EXPERT",
+                    "niveau": "PRO",
                     "projects": [
                         "Devmato",
                         "Hypotech",
@@ -70,7 +70,7 @@
                 {
                     "icon": "images/skills/archiweb.png",
                     "title": "Architecture web",
-                    "niveau": "EXPERT",
+                    "niveau": "PRO",
                     "projects": [
                         "Devmato",
                         "alternance - Stage"
@@ -89,7 +89,7 @@
                 {
                     "icon": "images/skills/montage.png",
                     "title": "Montage",
-                    "niveau": "EXPERT",
+                    "niveau": "INITIE",
                     "projects": [
                         "Mat'moi ça",
                         "Agri'Dax"
@@ -104,7 +104,7 @@
                 {
                     "icon": "images/skills/gestionprojet.png",
                     "title": "Gestion de projet",
-                    "niveau": "EXPERT",
+                    "niveau": "PRO",
                     "projects": [
                         "Devmato",
                         "Hypotech",
@@ -137,7 +137,7 @@
                 {
                     "icon": "images/skills/communication.png",
                     "title": "Communication",
-                    "niveau": "EXPERT",
+                    "niveau": "PRO",
                     "projects": [
                         "Mat'moi ça",
                         "Agri'Dax",
@@ -153,7 +153,7 @@
                 {
                     "icon": "images/skills/evenementiel.png",
                     "title": "Evenementiel",
-                    "niveau": "EXPERT",
+                    "niveau": "INITIE",
                     "projects": [
                         "Mat'moi ça",
                         "Agri'Dax"
