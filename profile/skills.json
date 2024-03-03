@@ -5,7 +5,7 @@
             "items" : [
      
                 {
-                    "icon": "images/skills/Java.png",
+                    "icon": "images/skills/java.png",
                     "title": "Java",
                     "niveau": "EXPERT",
                     "projects": [
@@ -21,7 +21,7 @@
                 }]
                 },
                 {
-                    "icon": "images/skills/mySQL.png",
+                    "icon": "images/skills/mysql.png",
                     "title": "SQL",
                     "niveau": "PRO",
                     "projects": [
