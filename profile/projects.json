@@ -1,10 +1,11 @@
 {
-    "projects" : [
+    "projects": [
         {
-            "image" : "images/projects/echecs.png",
+            "image": "images/projects/echecs.png",
             "title": "Mat'moi ça",
             "bodyText": "Organisation d’un tournoi d’échec en ligne afin de reverser l’argent récolté à l’association UNICEF",
-            "details": [{
+            "details": [
+                {
                     "presentation": "<strong>Mat ‘moi ça</strong> est un tournoi d’échecs caritatif organisé par notre groupe de semestre 4 lors de notre cursus à <strong>INTECH</strong> dans l’objectif de reverser les fonds récoltés à l’<a href='https://www.unicef.fr/'>UNICEF</a>. Notre choix s’est porté sur les échecs car c’est un jeu traversant les époques et qui revenait à la mode au moment de sa réalisation, c’est-à-dire lors du premier confinement. Cet engouement a aussi été nettement appuyé par la série « Le jeu de la dame » qui a suscité un grand intérêt de la population pour ce jeu. C’était pour moi particulièrement excitant d’organiser un tournoi sur ce jeu car je l’avais découvert il y a peu et un grand désir d’en découvrir toutes les facettes m’habitait.\n\nLe Fonds des Nations Unies pour l'enfance est une organisation internationale dédiée à <strong>la protection et au bien-être des enfants du monde entier</strong>. Créé en 1946, l'<a href='https://www.unicef.fr/'>UNICEF</a> travaille sans relâche pour garantir les droits fondamentaux de chaque enfant, notamment le droit à la santé, à l'éducation, à la protection et à la participation. Cette organisation, active dans plus de 190 pays, mène des projets essentiels pour lutter contre la malnutrition, améliorer l'accès à l'eau potable, fournir une éducation de qualité, et bien plus encore. Ces engagements m’avaient particulièrement touchés et c’est pour cela que j’étais particulièrement enthousiaste à l’idée de récolter des fonds pour cette association.",
                     "objectifs": "Les objectifs dans l’organisation de ce projet étaient multiples. Il nous fallait trouver des partenaires pour pouvoir financer le projet et récompenses du tournoi mais aussi trouver des personnalités pouvant faire la promotion du tournoi afin d’attirer plus de joueurs. De plus, il fallait établir une communication sur les réseaux sociaux autour de l’évènement. Finalement, la définition des règles du tournoi en lui-même était aussi un aspect important.\n\nLa principale difficulté que nous avons rencontré durant la réalisation de ce projet est de faire face à notre manque d’expertise et de crédibilité dans le monde des échecs. En effet, il est difficile pour un groupe d’étudiants inconnu de cet univers de trouver des sponsors ou de gagner en visibilité.",
                     "etapes": "Il a donc été très important de bien définir les étapes de réalisation du projet. Nous avons débuté notre projet par l'élaboration des règles du tournoi et le choix de la plateforme de jeu en ligne. Cette phase initiale a posé les bases de notre événement caritatif, garantissant son équité et sa compatibilité avec nos objectifs. Il semblait important à mes yeux de trouver une plateforme qui pourrait à la fois nous donner un maximum de visibilité tout en restant en accord avec nos valeurs et celles que défendent l’<a href='https://www.unicef.fr/'>UNICEF</a>.\n\nSimultanément, nous avons contacté des influenceurs du monde des échecs, cherchant leur soutien pour notre initiative. Leur implication était cruciale pour élargir la portée de notre tournoi. Ainsi, durant toute la phase de préparation, j’ai aussi eu l’occasion de contacter de nombreux influenceurs du monde des échecs par le plus de médias possibles : par mail, twitter, Facebook, téléphone voire même en allant directement parler dans le chat de certains steamers pour se faire remarquer. C’était un challenge particulièrement compliqué au vu du manque de crédibilité évident qu’un étudiant peut avoir. Il m’a fallu adapter mon discours à chacun pour faire ressortir notre projet et partager notre envie d’aider afin de convaincre un maximum d’influenceurs. Ces actions ont connu beaucoup de succès, parmi lesquels on peut retrouver <a href='https://twitter.com/ffechecs'>La Fédération Française des Echecs</a>, <a href='https://twitter.com/Dicomaniaque'>Dicomaniaque</a> ou encore <a href='https://twitter.com/Lampi0n_'>Lampion</a>.\n\nUne fois ces bases établies, nous avons animé le tournoi en le diffusant en direct sur <a href='https://www.twitch.tv/'>Twitch</a>. Cette diffusion en direct a permis d'engager le public, de susciter son intérêt, et de l'inciter à faire des dons en temps réel. Une fois de plus, c’était un exercice très intéressant de galvaniser un public et surtout de l’inciter à donner pour la bonne cause tout en rendant le tournoi intéressant à regarder. Personnellement, je l’ai pris comme un challenge. Étant de nature réservée, l’occasion était parfaite pour me dépasser et sortir de ma zone de confort.\n\nTout au long de ce processus, la communication sur les réseaux sociaux a joué un rôle essentiel. Elle nous a permis de maintenir l'intérêt du public, de partager des mises à jour sur le tournoi et d'encourager la participation. Cette <strong>communication</strong> était un travail de fond très important durant le projet. Elle a permis d’une part de tenir la communauté créée informée des actualités du tournoi mais aussi d’attirer de nouveaux joueurs et donateurs potentiels. Ce n’était pas un exercice facile et il a été nécessaire de redoubler de créativité pour créer des posts engageants et des visuels attrayants.\n\nCe cheminement logique nous a conduit à la réussite de notre projet, en alliant stratégie, promotion, interaction en direct, et <strong>communication</strong> efficace pour soutenir une cause charitable.",
@@ -12,32 +13,41 @@
                     "resultats": "L’association a été très satisfaite de notre travail et de notre implication dans l’organisation de ce tournoi mais aussi satisfaite des résultats et des retours positifs des participants. Quant à moi, j’ai eu l’occasion de découvrir le monde des échecs que je connaissais très peu à l’époque et de découvrir que j’aimais beaucoup cet univers. J’ai aussi été très heureux de constater la satisfaction de l’association et de l’aide que nous avons pu leur apporter. Tous les efforts réunis dans l’organisation du tournoi ont permis de rassembler des dizaines de joueurs mais surtout des centaines d’euros de donation dont l’association a pu faire bon usage.",
                     "lendemain": "",
                     "critique": "Ce projet s’est très bien déroulé et nous avons tous su au sein de l’équipe endosser les différents rôles avec facilité et avons su nous entraider avec efficacité. Je suis très fier d’avoir pu aider l’<a href='https://www.unicef.fr/'>UNICEF</a> dans leurs actions et d’avoir pu mener ce projet à son terme malgré les difficultés rencontrées.\n\nMon plus grand regret lors de la réalisation de ce projet est de ne pas avoir pu le réaliser en présentiel avec tous les joueurs réunis dans la même salle. Au vu des conditions sanitaires de l’époque, il ne nous était pas possible de réunir autant de personnes sans risquer de créer un cluster. Si c’était à refaire, je donnerai mon maximum pour que tout se passe en présentiel."
-            }],
+                }
+            ],
             "links": [
                 {
                     "text": "Voir en détail",
                     "href": "/ProjectDetails?title=Mat'moi ça"
                 }
-                
             ],
-            "tags" : [
+            "tags": [
                 "Gestion de projet",
                 "Evenementiel",
                 "Montage"
             ]
         },
         {
-            "image" : "images/projects/devmato.png",
+            "image": "images/projects/devmato.png",
             "title": "Devmato",
             "bodyText": "Site web pour le dermofacialisme. Le site vise à faire connaître ce métier et à mettre en relation les clients",
-            "details": "test",
+            "details": [
+                {
+                    "presentation": "",
+                    "objectifs": "",
+                    "acteurs": "",
+                    "resultats": "",
+                    "lendemain": "",
+                    "critique": ""
+                }
+            ],
             "links": [
                 {
                     "text": "Voir en détail",
                     "href": "/ProjectDetails"
                 }
             ],
-            "tags" : [
+            "tags": [
                 "Java",
                 "SQL",
                 "Git",
@@ -48,17 +58,27 @@
             ]
         },
         {
-            "image" : "images/projects/hypotech.PNG",
+            "image": "images/projects/hypotech.PNG",
             "title": "Hypotech",
             "bodyText": "Application Android simplifiant le travail administratif des agents immobiliers",
-            "details": "test",
+            "details": [
+                {
+                    "presentation": "Hypotech est le nom d’un des projets que j’ai réalisé durant mon cursus à INTECH et notamment durant le semestre 5 dans une équipe de 5 étudiants.\n\nLe projet visait à créer une application mobile simplifiant les processus administratifs d’une transaction immobilière. Le projet était commandité par Fabien Dalléas, un agent immobilier confirmé avec 16 ans d’expérience. Il souhaitait proposer une solution innovante pour aider les agents immobiliers et les notaires à changer radicalement et profondément l’environnement commercial afin d’offrir une meilleure expérience client et une façon pour les professionnels d’augmenter leur chiffre d’affaires. \n\nEn effet, les professionnels de l’immobilier sont confrontés à des contraintes administratives de plus en plus nombreuses pour pouvoir assurer la mise en vente, la vente ou la location de biens immobiliers. Cela est lié au renforcement de la réglementation et à des lois successives, notamment les lois EAN et ALUR récemment adoptées. L’application vise à simplifier leur quotidien en gérant pour eux l’aspect administratif lié à la vente des biens immobiliers et devait être déployée dans un premier temps dans les Landes et le Pays Basque. C’est après un benchmark des solutions déjà existantes dans le milieu que nous avons constaté que ce que proposait le commanditaire n’existait pas sur le marché et pourrait réellement apporter quelque chose de nouveau et utile. \n\nL’objectif était donc de créer une application Android dont la fonction principale est de simplifier le travail administratif des professionnels de l’immobilier, mais aussi des particuliers qui peuvent gagner beaucoup de temps. ",
+                    "objectifs": "Plusieurs acteurs ont été impliqués lors de ce projet. Dans un premier temps notre équipe d’étudiants bien sur qui s’est assuré du développement de l’application. De plus, Fabien Dalléas, le commanditaire du projet, a toujours su se rendre disponible malgré son emploi du temps chargé pour nous aider à appliquer au mieux sa vision.",
+                    "etapes": "La première étape de la réalisation de ce projet est probablement la ou l’une des plus importantes : l’organisation et la préparation. En effet, nous avions à ce stade une idée générale de la manière dont l’application devait être réalisée, mais nous manquions d’informations cruciales pour commencer le développement. C’est pour cela que j’ai pris la décision très tôt de régulièrement communiquer avec le commanditaire du projet afin de connaître au mieux son besoin. Après notre première réunion, nous avons pu élaborer notre premier Product Backlog regroupant les principales fonctionnalités de l’application. En méthode Scrum, Un product backlog est une liste dynamique et priorisée des fonctionnalités, des améliorations et des corrections de bogues à réaliser pour un produit donné. C'est essentiellement une liste de tâches à accomplir, organisée par ordre de priorité et régulièrement mise à jour pour refléter les besoins changeants du projet.\n\nUne fois le Product Backlog prêt et chaque membre de l’équipe répartis sur des fonctionnalités, nous avons pu commencer le développement de l’application mobile sur une technologie que j’ai découvert lors de projet : Android. Ce fut une difficulté particulière du projet, l’application était particulièrement complexe dans sa réalisation et il a été nécessaire de s’adapter le plus rapidement possible afin de trouver des solutions techniques pour mettre en place les désirs du commanditaire. Ma contribution au développement du projet s’est principalement axée sur la partie utilisateur en gérant les écrans lui donnant accès à ces dossiers immobiliers en gérant d’une part toute la partie visuelle mais aussi la partie back-end.\n\nLa dernière étape lors de la réalisation du projet a été la conception des documentations utilisateur et administrateurs afin d’expliquer toutes les fonctionnalités de l’application.\n\nFinalement, un aspect important à gérer tout au long de ce projet a été la communication avec le commanditaire. En effet, en tant que Scrum Master, il a fallu que je m’occupe d’organiser les différentes réunions pour ajuster le projet aux demandes de Fabien Dalleas tout en essayant de le canaliser pour que le projet reste réalisable dans les délais imposés. C’était un exercice particulièrement difficile pour moi, il arrivait parfois que d’une réunion à l’autre il change complètement d’avis sur certaines fonctionnalités, m’obligeant à être assez ferme, ce qui n’a pas toujours été facile pour lui d’accepter.",
+                    "acteurs": "Plusieurs acteurs ont été impliqués lors de ce projet. Dans un premier temps notre équipe d’étudiants bien sur qui s’est assuré du développement de l’application. De plus, Fabien Dalléas, le commanditaire du projet, a toujours su se rendre disponible malgré son emploi du temps chargé pour nous aider à appliquer au mieux sa vision.",
+                    "resultats": "Le projet a pu être mené à son terme avec une version fonctionnelle de l’application qui a pu être remise à Fabien Dalléas. Il était assez satisfait de ce que nous avions produit mais ne nous a pas caché que sa vision avait radicalement changé au cours du projet. Il était satisfait de notre travail et nous a expliqué qu’il lui a permis de mieux comprendre les enjeux du projet mais aussi de ce qui était réalisable et de la complexité d’un tel projet.",
+                    "lendemain": "Fabien Dalléas compte se servir de l’application que nous avons réalisée pour présenter le concept à des investisseurs potentiels qui trouveraient un intérêt dans son projet innovant. Sa vision ayant changée au fil du projet, il souhaitait continuer le développement de cette version bêta en la confiant à une nouvelle équipe de développement comme il n’était pas possible pour nous de continuer à l’aider en raison de notre cursus.",
+                    "critique": "Je retire beaucoup d’enseignements de ce projet. En effet, c’était pour moi la première fois que j'endosse le rôle de Scrum Master et j’ai eu l’occasion de comprendre la difficultés des nombreuses responsabilités que cela représentait. Je suis fier de la gestion de l'équipe que j’ai pu avoir tout au long du projet.\n\nMais j’ai tout de même des regrets concernant la communication avec le commanditaire. Au début du projet, n’étant pas très à l’aise dans ce nouveau rôle qui m’incombait, j’ai accepté beaucoup de choses qui étaient très complexes et probablement non réalisables dans les délais. C’est un élément qui s’est beaucoup amélioré au fil du projet et que j’ai pu corriger sur les conseils de mes professeurs et camarades et qui m’a fait beaucoup progresser.\n\nSi je devais refaire ce projet aujourd’hui, je serai bien plus ferme lors de l’élaboration du Product Backlog en expliquant clairement au commanditaire ce qui est possible ou non de faire, même si ça peut le décevoir."
+                }
+            ],
             "links": [
                 {
                     "text": "Voir en détail",
                     "href": "/ProjectDetails?title=Hypotech"
                 }
             ],
-            "tags" : [
+            "tags": [
                 "Java",
                 "SQL",
                 "Git",
@@ -66,9 +86,19 @@
             ]
         },
         {
-            "image" : "images/projects/AgriDax.PNG",
+            "image": "images/projects/AgriDax.PNG",
             "title": "Agri'Dax",
-            "details": "test",
+            "details": [
+                {
+                    "presentation": "Agri Dax est une formation organisée par notre groupe de semestre 3 lors de notre cursus à <strong>INTECH</strong> dans l’objectif de former les membres de l’<strong>AMAP</strong> de Dax à l’utilisation d’un nouveau logiciel de gestion qu’ils souhaitent utiliser. Il s’agissait donc d’expliquer à tous les utilisateurs potentiels du logiciel son fonctionnement mais aussi d’aider l’<strong>AMAP</strong> à se développer et attirer de nouveaux adhérents.\n\nUne <strong>AMAP</strong> est une Association pour le Maintien d'une Agriculture Paysanne, qui est un partenariat entre des agriculteurs locaux et des consommateurs. Le concept a été créé en France dans les années 2000. L'objectif principal d'une <strong>AMAP</strong> est de soutenir l'agriculture locale, durable et souvent biologique, tout en renforçant les liens entre les producteurs et les consommateurs.\n\nLe fonctionnement d'une <strong>AMAP</strong> est basé sur un engagement mutuel. Les consommateurs, appelés 'amapiens', s'engagent à acheter une part de la production agricole d'un producteur local sur une période définie (généralement une saison). En échange, le producteur s'engage à fournir une variété de produits frais et locaux, souvent des fruits, légumes, viandes, œufs, etc.\n\nLes avantages d'une <strong>AMAP</strong> sont multiples. Pour les consommateurs, cela signifie avoir accès à des aliments frais, de saison et locaux. Ils soutiennent également une agriculture respectueuse de l'environnement. Du côté des agriculteurs, l'<strong>AMAP</strong> leur offre une source de revenus plus stable, la possibilité de se concentrer sur une production de qualité plutôt que sur la quantité, et une relation directe avec les personnes qui consomment leurs produits.\n\nL’<strong>AMAP</strong> de Dax applique donc ce modèle mais s'est aperçu au fil du temps qu’ils avaient du mal à attirer de nouveaux adhérents et étaient bien derrière d’autres <strong>AMAP</strong> de la région. Les gérants de l'association ont donc cherché ce qui les différencient des autres AMAP et se sont rendu compte notamment qu’elles utilisaient un logiciel spécifique pour la gestion des stocks. Ils ont donc décidé de nous solliciter afin d’aider tous les profils à se familiariser avec le logiciel mais aussi dans un deuxième temps leur fournir un benchmark des différentes <strong>AMAP</strong> de la région afin de les aider.",
+                    "objectifs": "Nos objectifs lors de ce projet étaient donc multiples. Nous devions dans un premier temps nous même nous familiariser avec le logiciel puis fabriquer une formation de zéro qui serait compréhensible par tout type de profil. De plus, un objectif important était de déterminer par quels moyens l’<strong>AMAP</strong> pouvait améliorer son organisation, aspect passant notamment par la réalisation d’une étude comparative des différentes associations de la région.\n\nLors de la réalisation de ce projet, il a fallu faire face à une difficulté particulière qui était notre méconnaissance totale du sujet. En effet, ni moi ni aucun membre du groupe n’avait de connaissances sur les <strong>AMAP</strong>, leur fonctionnement voire même leur existence avant de débuter le projet. Il nous fallait donc établir très vite un plan solide pour pallier ces faiblesses.",
+                    "etapes": "En tant que chef d’équipe sur ce projet, il me semblait essentiel de bien déterminer les étapes que nous allions entreprendre pour réaliser notre mission. Dans un premier temps, avant même de nous pencher sur la réalisation de la formation, il nous fallait impérativement emmagasiner un maximum d’informations sur l’association en elle-même. C'est pour ces différentes raisons que j’avais décidé de répartir les différents membres de l’équipe sur une collecte d’informations multiples. Cette décision nous a permis à la fois de travailler auprès de l’association pour leur poser des questions, effectuer un travail de recherche de notre côté mais aussi de progresser sur la compréhension et la maîtrise du logiciel sur lequel nous allions devoir faire nôtre formation. Grâce à cette organisation, lors de la mise en commun des informations récoltées, nous avons pu pallier notre manque de connaissances sur le sujet en un temps record.\n\nA partir de cette étape, il était crucial de commencer à travailler sur l’étude comparative des différentes associations de la région. C’est pour cette raison que j’ai pris l’initiative de contacter directement chaque <strong>AMAP</strong> de la région pour en apprendre davantage sur leur différents modes de fonctionnement. C’était pour moi un exercice assez difficile étant assez réservé mais c’était une expérience très enrichissante qui nous a permis de récolter beaucoup d’informations mais aussi de mettre en contact les associations entre elles qui se sont aperçues au fil de nos conversations que certaines étaient très isolées. En parallèle de ce travail de contact, nous avons aussi poussé nos recherches et finalement récolter assez de statistiques pour comparer les <strong>AMAP</strong> sur plusieurs critères : la communication (réseaux sociaux…), l’utilisation du logiciel de gestion, le nombre d’adhérents et de producteurs et son évolution au fil du temps ainsi que le prix d’adhésion. Avec toutes ces informations, nous avons pu les interpréter et en conclure des moyens pertinents pour l’<strong>AMAP</strong> de Dax de développer ses activités et attirer de nouveaux adhérents.\n\nSimultanément, nous avons aussi travaillé sur la réalisation de la formation sur logiciel de l’association. Ainsi, j’ai aussi eu l’occasion de travailler sur la structure de la formation et son contenu. Il s’agissait de former chaque catégorie d’utilisateur à l’utilisation de toutes les fonctionnalités du logiciel : les amapiens (adhérents de l’association), les producteurs (qui fournissent les produits) et finalement les administrateurs. Il était particulièrement complexe mais intéressant d’adapter le discours à chaque catégorie d’utilisateur, les âges des personnes formées allant de la vingtaine d’année à plus de 75.\n\nFinalement, nous avons eu l’occasion de réaliser directement la formation. Le projet se déroulant en pleine période de COVID, nous avons dû la réaliser en visioconférence. C’était un exercice très intéressant et nouveau d’animer une formation. En effet, contrairement aux oraux auxquels j’avais l’habitude de participer, il fallait ici être très pédagogique et être prêt à répondre à n’importe quelle question venant des apprenants.\n\nAvec une gestion et une organisation efficace de ce projet, nous avons pu le mener vers la réussite.",
+                    "acteurs": "Plusieurs acteurs ont été impliqués tout au long du projet. Dans un premier temps, l’<strong>AMAP</strong> de Dax qui tout au long du projet a toujours été disponible pour répondre à nos questions et nous éclairer sur leur fonctionnement.\n\nDe plus, les nombreuses <strong>AMAP</strong> de la région ont toujours su être ouvertes et très enthousiastes à l’idée de nous aider et d’aider l’<strong>AMAP</strong> de Dax à se développer. Nous avons notamment permis à l’association de Dax de se rapprocher d’elles car elle était assez isolée avant notre projet.",
+                    "resultats": "L’association a été très satisfaite du travail produit. En effet, ils étaient très contents du format de la formation et des explications que nous avons fournies, nous avons pu aussi le constater par leurs réponses à notre questionnaire de satisfaction qui étaient toutes très positives. Ils nous ont aussi partagé leur joie après lecture de notre étude comparative qui leur a donné beaucoup de nouveaux axes d’amélioration. Quant à moi, j’ai eu l’occasion de découvrir cette association très intéressante mais aussi de développer mes capacités de gestion en organisant tout le déroulé du projet.\n\nMalgré les difficultés rencontrées, le projet s'est très bien déroulé et je suis fier du travail que nous avons accompli et d’avoir pu mener ce projet à son terme.",
+                    "lendemain": "",
+                    "critique": "Mon plus grand regret sur ce projet est de ne pas avoir pu contacter plus d’associations. En effet, nous avons contacté celles des Landes, mais il aurait été intéressant de nous pencher sur d’autres régions qui pourraient avoir un fonctionnement très différent. Hélas, le temps nous manquait pour les contacter et organiser une réunion. J’ajouterai aussi que j’aurai beaucoup aimé faire la formation en présentiel mais au vu des conditions sanitaires ce n’était pas possible."
+                }
+            ],
             "bodyText": "Former les membres de l'assocation AMAP à l'utilisation d'un logiciel facilitant leur travail",
             "links": [
                 {
@@ -76,7 +106,7 @@
                     "href": "/ProjectDetails?title=Agri'Dax"
                 }
             ],
-            "tags" : [
+            "tags": [
                 "Gestion de projet",
                 "Evenementiel",
                 "Communication",
@@ -84,17 +114,27 @@
             ]
         },
         {
-            "image" : "images/projects/capge.png",
+            "image": "images/projects/capge.png",
             "title": "alternance - Stage",
             "bodyText": "Maintenance applicative en tant que développeur chez Capgemini",
-            "details": "test",
+            "details": [
+                {
+                    "presentation": "",
+                    "objectifs": "",
+                    "etapes": "",
+                    "acteurs": "",
+                    "resultats": "",
+                    "lendemain": "",
+                    "critique": ""
+                }
+            ],
             "links": [
                 {
                     "text": "Voir en détail",
                     "href": "/ProjectDetails"
                 }
             ],
-            "tags" : [
+            "tags": [
                 "Java",
                 "Javascript",
                 "Architecture Web",
@@ -103,6 +143,5 @@
                 "Agilité"
             ]
         }
-       
     ]
 }
