@@ -98,7 +98,7 @@ function SkillDetails() {
                   }
                   />
                 </Col>
-                <h2 style={{ margin: '50px 0' }}>Compétences associées</h2>
+                <h2 style={{ margin: '50px 0' }}>Réalisations associées</h2>
                 <div style={{ display: 'flex', flexWrap: 'wrap' }}>
                   {selectedSkill.projects.map((tag) => (
                     <div

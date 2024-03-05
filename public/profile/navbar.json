@@ -36,22 +36,17 @@
             "href": "/experience"
         },
         {
-            "title": "Projets",
+            "title": "Realisations",
             "href": "/projects",
             "type": "dropdown",
             "actions": [{
-                "Tous les projets" : "/projects",
+                "Toutes les réalisations" : "/projects",
                 "Mat'moi ça" : "/ProjectDetails/Mat'moi%20ça",
                 "Devmato" : "/ProjectDetails/Devmato",
                 "Hypotech" : "/ProjectDetails/Hypotech",
                 "Agri'Dax" : "/ProjectDetails/Agri'Dax",
-                "alternance - Stage" : "/ProjectDetails/alternance%20-%20Stage"
+                "Maintenance applicative" : "/ProjectDetails/Maintenance%20applicative"
                 }]
-        },
-        {
-            "title": "CV",
-            "href": "https://drive.google.com/file/d/1VLXLrNeQuej1EYtCFuLZ67bmh0i7l6aa/view?usp=drive_link",
-            "type": "link"
         }
     ]
 

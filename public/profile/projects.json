@@ -115,7 +115,7 @@
         },
         {
             "image": "images/projects/capge.png",
-            "title": "alternance - Stage",
+            "title": "Maintenance applicative",
             "bodyText": "Maintenance applicative en tant que développeur chez Capgemini",
             "details": [
                 {
@@ -138,8 +138,7 @@
                 "Java",
                 "Javascript",
                 "Architecture Web",
-                "Cobol",
-                "XML",
+                "Git",
                 "Agilité"
             ]
         }
