@@ -18,8 +18,8 @@ const styles = {
   },
   introImageContainer: {
     margin: 10,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: 'flex-start',
+    alignItems: 'flex-start',
     display: 'flex',
   },
 };
