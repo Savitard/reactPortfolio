@@ -39,6 +39,13 @@ const NavBar = () => {
   const theme = useContext(ThemeContext);
   const [data, setData] = useState(null);
   const [expanded, setExpanded] = useState(false);
+  const [dropdownsOpen, setDropdownsOpen] = useState([]);
+
+  const handleToggleDropdown = (index) => {
+    const newDropdownsOpen = [...dropdownsOpen];
+    newDropdownsOpen[index] = !newDropdownsOpen[index];
+    setDropdownsOpen(newDropdownsOpen);
+  };
 
   useEffect(() => {
     fetch(endpoints.navbar, {
@@ -51,6 +58,7 @@ const NavBar = () => {
   const history = useHistory();
   const redirectToSkillDetails = (skillTitle) => {
     history.push(`${skillTitle}`);
+    setExpanded(false);
   };
   return (
     <Navbar
@@ -105,7 +113,13 @@ const NavBar = () => {
                       theme={theme}
                       style={{ display: 'inline-block' }}
                     >
-                      <NavDropdown title={section.title} id="basic-nav-dropdown">
+                      <NavDropdown
+                        title={section.title}
+                        id="basic-nav-dropdown"
+                        show={dropdownsOpen[index]}
+                        onToggle={() => handleToggleDropdown(index)}
+                        onClick={(e) => e.stopPropagation()}
+                      >
                         {Object.entries(section.actions[0]).map(([actionTitle, actionUrl]) => (
                           <NavDropdown.Item onClick={() => redirectToSkillDetails(actionUrl)}>
                             {actionTitle}
