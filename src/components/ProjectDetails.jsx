@@ -97,6 +97,7 @@ function ProjectDetails() {
                     { __html: selectedProject.details[0].acteurs }
                   }
                   />
+                  <br />
                   <div dangerouslySetInnerHTML={
                     { __html: selectedProject.details[0].resultats }
                   }
@@ -110,6 +111,7 @@ function ProjectDetails() {
                     { __html: selectedProject.details[0].lendemain }
                   }
                   />
+                  <br />
                   <div dangerouslySetInnerHTML={
                     { __html: selectedProject.details[0].critique }
                   }

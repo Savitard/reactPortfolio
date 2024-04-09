@@ -26,7 +26,7 @@ function Social() {
       display: 'flex',
       alignItems: 'center',
       backgroundColor: theme.socialIconBgColor, // Use theme color
-      color: theme.socialIconColor, // Use theme color
+      color: '#CCCCCC', // Use theme color
       padding: '10px',
       borderRadius: '5px',
       cursor: 'pointer',
