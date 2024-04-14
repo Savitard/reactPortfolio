@@ -69,6 +69,7 @@ function ProjectDetails() {
             <Container style={styles.containerStyle}>
               <div style={styles.contentContainer}>
                 <Col style={styles.introTextContainer}>
+                  <h1>Présentation</h1>
                   <div dangerouslySetInnerHTML={
                     { __html: selectedProject.details[0].presentation }
                   }
@@ -77,6 +78,7 @@ function ProjectDetails() {
                   <div style={styles.images}>
                     <img src={`images/projects/${selectedProject.title}/1.jpg`} alt="1" style={{ maxWidth: '50%', height: 'auto' }} />
                   </div>
+                  <h1>Réalisation</h1>
                   <br />
                   <div dangerouslySetInnerHTML={
                     { __html: selectedProject.details[0].objectifs }
@@ -92,6 +94,7 @@ function ProjectDetails() {
                     <img src={`images/projects/${selectedProject.title}/2.jpg`} alt="2" style={{ maxWidth: '50%', height: 'auto' }} />
                     <img src={`images/projects/${selectedProject.title}/3.jpg`} alt="3" style={{ maxWidth: '50%', height: 'auto' }} />
                   </div>
+                  <h1>Résultats</h1>
                   <br />
                   <div dangerouslySetInnerHTML={
                     { __html: selectedProject.details[0].acteurs }
