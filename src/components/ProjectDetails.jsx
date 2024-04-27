@@ -91,7 +91,7 @@ function ProjectDetails() {
                   />
                   <br />
                   <div style={styles.images}>
-                    <img src={`images/projects/${selectedProject.title}/2.jpg`} alt="2" style={{ maxWidth: '50%', height: 'auto' }} />
+                    <img src={`images/projects/${selectedProject.title}/2.jpg`} alt="2" style={{ maxWidth: '50%', height: 'auto', marginRight: '50px' }} />
                     <img src={`images/projects/${selectedProject.title}/3.jpg`} alt="3" style={{ maxWidth: '50%', height: 'auto' }} />
                   </div>
                   <h1>Résultats</h1>
